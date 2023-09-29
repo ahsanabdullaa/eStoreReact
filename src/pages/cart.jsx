@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Delete } from "@mui/icons-material"; // Import Material-UI icons
 
 export default function Cart() {
   // Initialize cart state with an empty array
