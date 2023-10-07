@@ -40,7 +40,7 @@ export default function Shop() {
         </Button>
         {/* </div> */}
       </div>
-      <div className="flex justify-between align-items-center flex-wrap">
+      <div className="flex justify-evenly align-items-center flex-wrap">
         {filteredData.map((item) => (
           <ItemCard item={item} key={item.id} />
         ))}

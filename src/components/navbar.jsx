@@ -19,7 +19,7 @@ import { ShoppingCart } from "@mui/icons-material";
 
 const drawerWidth = 240;
 const navItems = [
-  { key: 1, text: "Shop", link: "/shop" },
+  { key: 1, text: "Shop", link: "/" },
   { key: 2, text: <ShoppingCart />, link: "/cart" },
 ];
 
